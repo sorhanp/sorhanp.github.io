@@ -31,6 +31,13 @@ plugins:
 # Show post from the "future"
 future: true
 
+#Enabling Excerpts on the Home Page
+show_excerpts: true
+
+#Enable code highlighting
+highlighter: rouge
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

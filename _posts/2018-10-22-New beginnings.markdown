@@ -2,6 +2,7 @@
 layout: post
 title:  "New beginnings"
 categories: programming
+excerpt_separator: <!--more-->
 ---
 [digitaldefynd]: https://digitaldefynd.com/best-c-plus-plus-tutorial-course-certification/
 [java67]: http://www.java67.com/2018/02/5-free-cpp-courses-to-learn-programming.html
@@ -19,7 +20,7 @@ categories: programming
 [sololearn]: https://www.sololearn.com/
 [previous]: /programming/2018/10/19/My-first-post.html
 
-As stated in my [previous][previous] blog post I have most experience in software development using C++ -programming language, meaning I still possess some kind of basic understanding of language in question. Because of that I decided that should start my journey from the basics of C++ as a refresher. In my opinion, it is never waste of time to start from the beginning, just to make sure that there is nothing that one have forgotten. I think it will later reduce my frustration when I face some obstacle that I could have overcome easily, if I had refreshed my memory about the basics.
+As stated in my [previous][previous] blog post I have most experience in software development using C++ -programming language, meaning I still possess some kind of basic understanding of language in question. Because of that I decided that should start my journey from the basics of C++ as a refresher.<!--more--> In my opinion, it is never waste of time to start from the beginning, just to make sure that there is nothing that one have forgotten. I think it will later reduce my frustration when I face some obstacle that I could have overcome easily, if I had refreshed my memory about the basics.
 
 Luckily finding courses that provide one with absolute basics of programming are available far and wide online. For example a simple “best courses to learn C++” Internet-search provides a lot of good pointers where to begin. My first results where [Digitaldefynd][digitaldefynd] and [Java67][java67].
 which both provide nice and simple list that provide nice overview of the courses featured. Digitaldefynd ones were mostly about paid courses at [Udemy][udemy] online learning portal. Java67 also provided Udemy-course that [caught my eye][beginnerscpp] with the line: “can be completed with any C++ IDE and compiler“ as mentioned previously I’m running virtual machine with Arch Linux on it. so there no need to setup any new software and I'm able to jump right in to the course. For future I also found out about Microsoft edX-courses [Introduction] [edxbegin], [Intermediate][edxinter] and [Advanced][edxadvan], which I will check out later, when I want to learn about [Microsoft Visual Studio][visualstudio] IDE.
