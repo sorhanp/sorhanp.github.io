@@ -15,6 +15,8 @@ excerpt_separator: <!--more-->
 [wchar_t]: http://www.cplusplus.com/reference/cwchar/wchar_t/
 [utf8everywhere]: http://utf8everywhere.org/
 
+*Update Oct 27, 2018: Noticed that I got loops bit mixed up during site building and showed picture claiming, that do while and for are almost the same. It is fixed now on this blog post.*
+
 After last blog post I have kept “attending” [C++ Tutorial for Complete Beginners][beginnerscpp] course. During my studies I have found out that I still have the ability to think like a programmer. Meaning, that I have been able to do much more than is required on current lesson and expand my learning with things from the past. <!--more--> For example, when there was lesson about conditions where the lecturer suggested, that after his you should try to do program that does certain [multiplication table][multiplytable] using an [C++ standard array][array] and set values. Instead of hard coding the values to the code itself, I wrote a little program that asks from user how long multiplication table is needed and what number should be multiplied. Example code is below:
 
 {% highlight cpp %}
