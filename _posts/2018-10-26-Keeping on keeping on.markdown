@@ -47,11 +47,11 @@ int main(){
 
 As seen on the little program above, my current lessons have been covering loops and how to implement them to a program. To make sure that I understand how each of them works I decided to look up the differences between [for-, do while- and while-loops][loops] and even went, and couple draw flowcharts of loops to visualize what happens in different loops. I used application called [Pencil][pencil] to draw and the charts are presented below.
 
-For- and do while-loop are pretty much the same when put in a simplest flowchart form:
-![For- and Do while-loops](/assets/for_and_do_while_loops.png)
+For- and while-loop are pretty much the same when put in a simplest flowchart form:
+![For- and Do while-loops](/assets/for_while_loop.png)
 
-While loop does something differently in a perspective of a simple flowchart:
-![For- and Do while-loops](/assets/while_loop.png)
+Do while loop does it differently, since it runs the code always atleast once. Here it is in a flowchart:
+![For- and Do while-loops](/assets/do_while_loop.png)
 
 I also read about what are the major differences between each of these loops and when should programmer select which to use, and came to conclusion that it all depends on the circumstances. My favourite anecdote was that each of these are tools for different situation in the same way as the tools in carpenters toolbox. There are several ways to hammer down a nail, but the most elegant and easiest way to use the **hammer** rather than **wrench**. Some programmers may dislike do while loop because it creates confusion. After I have more experience in a matter, I think I will continue using each of the tools provided to find the best solution to each of problems presented to me.
 

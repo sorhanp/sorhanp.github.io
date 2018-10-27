@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Keeping on keeping on | (Re)discovering the code</title>
+<meta name="generator" content="Jekyll v3.8.4" />
+<meta property="og:title" content="Keeping on keeping on" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="After last blog post I have kept “attending” C++ Tutorial for Complete Beginners course. During my studies I have found out that I still have the ability to think like a programmer. Meaning, that I have been able to do much more than is required on current lesson and expand my learning with things from the past." />
+<meta property="og:description" content="After last blog post I have kept “attending” C++ Tutorial for Complete Beginners course. During my studies I have found out that I still have the ability to think like a programmer. Meaning, that I have been able to do much more than is required on current lesson and expand my learning with things from the past." />
+<link rel="canonical" href="http://localhost:4000/programming/2018/10/26/Keeping-on-keeping-on.html" />
+<meta property="og:url" content="http://localhost:4000/programming/2018/10/26/Keeping-on-keeping-on.html" />
+<meta property="og:site_name" content="(Re)discovering the code" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-10-26T00:00:00+03:00" />
+<script type="application/ld+json">
+{"description":"After last blog post I have kept “attending” C++ Tutorial for Complete Beginners course. During my studies I have found out that I still have the ability to think like a programmer. Meaning, that I have been able to do much more than is required on current lesson and expand my learning with things from the past.","@type":"BlogPosting","url":"http://localhost:4000/programming/2018/10/26/Keeping-on-keeping-on.html","headline":"Keeping on keeping on","dateModified":"2018-10-26T00:00:00+03:00","datePublished":"2018-10-26T00:00:00+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/programming/2018/10/26/Keeping-on-keeping-on.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="(Re)discovering the code" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">(Re)discovering the code</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Keeping on keeping on</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-10-26T00:00:00+03:00" itemprop="datePublished">Oct 26, 2018
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    
+<p>After last blog post I have kept “attending” <a href="https://www.udemy.com/free-learn-c-tutorial-beginners/learn/v4/content">C++ Tutorial for Complete Beginners</a> course. During my studies I have found out that I still have the ability to think like a programmer. Meaning, that I have been able to do much more than is required on current lesson and expand my learning with things from the past. <!--more--> For example, when there was lesson about conditions where the lecturer suggested, that after his you should try to do program that does certain <a href="https://en.wikipedia.org/wiki/Multiplication_table">multiplication table</a> using an <a href="http://www.cplusplus.com/doc/tutorial/arrays/">C++ standard array</a> and set values. Instead of hard coding the values to the code itself, I wrote a little program that asks from user how long multiplication table is needed and what number should be multiplied. Example code is below:</p>
+
+<figure class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="cp">#include &lt;iostream&gt;
+</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+
+    <span class="kt">int</span> <span class="n">iUserTableInput</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">iUserInput</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Input how long of a multiplication table do you need &gt; "</span> <span class="o">&lt;&lt;</span> <span class="n">flush</span><span class="p">;</span>
+    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">iUserTableInput</span><span class="p">;</span>
+    
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Input which number you want to multiples of &gt; "</span> <span class="o">&lt;&lt;</span> <span class="n">flush</span><span class="p">;</span>
+    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">iUserInput</span><span class="p">;</span>
+    
+    <span class="kt">int</span> <span class="n">iMultiplication</span><span class="p">[</span><span class="n">iUserTableInput</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">{};</span> 
+    <span class="c1">// +1 to make sure that there are enough memory allocated to array. </span>
+    
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">iLoop</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">iLoop</span> <span class="o">&lt;=</span> <span class="n">iUserTableInput</span><span class="p">;</span> <span class="n">iLoop</span><span class="o">++</span><span class="p">){</span>
+        <span class="n">iMultiplication</span><span class="p">[</span><span class="n">iLoop</span><span class="p">]</span> <span class="o">=</span> <span class="n">iUserInput</span> <span class="o">*</span> <span class="n">iLoop</span><span class="p">;</span> 
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">iLoop</span> <span class="o">&lt;&lt;</span> <span class="s">" times "</span> <span class="o">&lt;&lt;</span> <span class="n">iUserInput</span> <span class="o">&lt;&lt;</span> <span class="s">" is "</span> <span class="o">&lt;&lt;</span> <span class="n">iMultiplication</span><span class="p">[</span><span class="n">iLoop</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>As seen on the little program above, my current lessons have been covering loops and how to implement them to a program. To make sure that I understand how each of them works I decided to look up the differences between <a href="https://en.wikiversity.org/wiki/C%2B%2B/Loops">for-, do while- and while-loops</a> and even went, and couple draw flowcharts of loops to visualize what happens in different loops. I used application called <a href="https://pencil.evolus.vn/">Pencil</a> to draw and the charts are presented below.</p>
+
+<p>For- and while-loop are pretty much the same when put in a simplest flowchart form:
+<img src="/assets/for_while_loop.png" alt="For- and Do while-loops" /></p>
+
+<p>Do while loop does it differently, since it runs the code always atleast once. Here it is in a flowchart:
+<img src="/assets/do_while_loop.png" alt="For- and Do while-loops" /></p>
+
+<p>I also read about what are the major differences between each of these loops and when should programmer select which to use, and came to conclusion that it all depends on the circumstances. My favourite anecdote was that each of these are tools for different situation in the same way as the tools in carpenters toolbox. There are several ways to hammer down a nail, but the most elegant and easiest way to use the <strong>hammer</strong> rather than <strong>wrench</strong>. Some programmers may dislike do while loop because it creates confusion. After I have more experience in a matter, I think I will continue using each of the tools provided to find the best solution to each of problems presented to me.</p>
+
+<p>This time I decided to list all the new things that I have learned since my last blog post and comment them a little bit. There haven’t been a lot of completely new things but I still think that using the beginners course as a refresher is a good idea. I have never felt bored, but rather intrigued to find out that I still can remember all the basics. When I decided to change my career path some of the people who I told about my next move told me that returning to something that I have already done before is like riding a bicycle after all these years. You never really forget it all. After almost couple of weeks of setting up development environment to myself and starting to write programs I kind of agree with that sentiment. Anyways, here are the things that were something new to me, or made me do additional digging around the Internet:</p>
+
+<ul>
+  <li>Header called <a href="http://www.cplusplus.com/reference/iomanip/">iomanip</a> provides parametric manipulators such as:
+    <ul>
+      <li><a href="http://www.cplusplus.com/reference/iomanip/setprecision/">setprecision</a> which include setting decimal precision of floating point values.</li>
+      <li>I have never really written programs that need floating point values to be this precise and thus haven’t really need these before. After learning about these I’m pretty sure I will use them later on.</li>
+      <li>I will share another code about floating point values after this list.</li>
+    </ul>
+  </li>
+  <li><a href="http://www.cplusplus.com/reference/cwchar/wchar_t/">wchar_t</a> which is used in UTF-16 text encoding.
+    <ul>
+      <li>Altough it should be never used. See <a href="http://utf8everywhere.org/">utf8everywhere</a> which state: “Do not use wchar_t or std::wstring in any place other than adjacent point to APIs accepting UTF-16.” I think knowing that this is might be handy when coming across legacy systems in Windows environment that had to use old UTF-16/Unicode encoding. Learning bit of history never hurts :)</li>
+    </ul>
+  </li>
+  <li>Declaring variables at the beginning of the program vs. declaring them when you really need variables in a program.
+    <ul>
+      <li>This is something that I have been thinking myself alot when I started all those years ago and when I heard about it again during one of the lessons I thought immediately this is something I should write about.</li>
+      <li>It seems that declaring all the variables at the beginning of the program was something that was done in the old days, when compiler standards where different. However it also depends on the used language. I will keep digging around and come back to this point later when I have found more information to back up one theory over another.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>One last piece of new information was comparing floating point values and I learned that that it is like comparing height of two people, as in one person can very rarely be <em>exactly</em> same height with another person, even when they might look as tall. Example code below shows one way to compare floating point values.</p>
+
+<figure class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="kt">float</span> <span class="n">fValue1</span> <span class="o">=</span> <span class="mf">1.1</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">fValue1</span> <span class="o">&lt;</span> <span class="mf">1.11</span><span class="p">){</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"equals"</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">else</span><span class="p">{</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"not equal"</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span></code></pre></figure>
+
+<p>Next up on the course is going to be more advanced programming such as object oriented coding, inheritance and pointers. Can’t hardly wait. Until next time!</p>
+
+<p>-sorhanp</p>
+
+  </div><a class="u-url" href="/programming/2018/10/26/Keeping-on-keeping-on.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">(Re)discovering the code</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">(Re)discovering the code</li><li><a class="u-email" href="mailto:hannupekka.sormunen@gmail.com">hannupekka.sormunen@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/sorhanp"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">sorhanp</span></a></li><li><a href="https://www.linkedin.com/in/hannupekka-sormunen"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">hannupekka-sormunen</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Programming blog of Hannupekka Sormunen.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
