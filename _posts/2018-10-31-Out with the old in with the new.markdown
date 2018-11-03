@@ -39,4 +39,6 @@ I will update my C++ progress later this week when I have more understanding of 
 * [cplusplus.com][cplusplus] has very basic tutorials how everything works and even a forum that has a lot answers from programmers around the world.
 * [C++ reference][cppreference] includes very fast access to almost any recourse one could need.
 
+Happy coding!
+
 -sorhanp
