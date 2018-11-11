@@ -19,16 +19,16 @@ Object oriented programming is based completely around data structures that cont
 class MobilePhone {
     //Data fields also known as attributes of the phone:
     string Model;
-    int ModelNumber
+    int ModelNumber;
     int IMEI;
     string Color;
-    string OperatingSystem
+    string OperatingSystem;
     //These are only examples, as mobile phones can have many attributes
 
     //Methods also known as things you can do with a phone.
     public:
-    void MakePhoneCall(int NumberToCallTo)
-    void OpenInternetBrowser(string NameOfBrowser)
+    void MakePhoneCall(int NumberToCallTo);
+    void OpenInternetBrowser(string NameOfBrowser);
     //Mobile phones tend to have a lot of things you can with do it.
     //Which means that there are a lot of members.
     //Let's keep it sort and keep reading how one should go
