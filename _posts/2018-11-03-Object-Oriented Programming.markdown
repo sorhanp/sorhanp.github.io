@@ -9,6 +9,12 @@ excerpt_separator: <!--more-->
 [tutpoint]: https://www.tutorialspoint.com/cplusplus/cpp_object_oriented.htm
 [wikispp]: https://en.wikipedia.org/wiki/Single_responsibility_principle
 [last]: /programming/2018/10/31/Out-with-the-old-in-with-the-new.html
+:https://www.cprogramming.com/tutorial/lesson6.html 
+:https://en.wikipedia.org/wiki/Data_segment
+:http://www.cs.uwm.edu/classes/cs315/Bacon/Lecture/HTML/ch10s04.html
+:https://www.geeksforgeeks.org/memory-layout-of-c-program/
+:https://cpp.tech-academy.co.uk/memory-layout/
+
 
 My [last][last] blog post was mostly about my change of tools and in this post I’m going to describe more closely my learning progress so far. Last time I wrote about loops, which are very important part of programming and about my new findings such as setprecision(). This time I’m mostly writing about Object-Oriented Programming, which I have been very interested since I heard about it back in the day and learned what it really meant.<!--more--> Nowadays when I try to learn something that I’m really into, I also try to search as much background information as possible so that I can form a complete understanding about it. I know that sometimes that is not possible, but with programming I think that this is really necessary. When I was younger I learned programming by reading about something superficially (ie. about object oriented programming) and then moving on the programming part without truly having comprehension of the subject matter. Usually this lead to situations where I would face a problem and then force my way through. Using this tactic usually leaves me with knowledge how to solve that particular problem, but doesn't make me truly learn anything. Managing to understand the big picture is the most important and I think that is the case with object orientation. This is why I wanted to write whole blog post about it.
 
