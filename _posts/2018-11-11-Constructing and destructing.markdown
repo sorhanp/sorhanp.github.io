@@ -2,6 +2,8 @@
 layout: post
 title:  "Constructing and destructing"
 categories: programming
+description: My findings about C++(CPP, or cpp) object oriented programming and constructors and destructors.
+tags: programming, c++, object-oriented, cpp, costructors, destructors
 excerpt_separator: <!--more-->
 ---
 [object oriented programming]: /programming/2018/10/31/Out-with-the-old-in-with-the-new.html

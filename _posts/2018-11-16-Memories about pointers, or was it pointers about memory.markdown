@@ -2,6 +2,8 @@
 layout: post
 title:  "Memories about pointers, or was it pointers about memory?"
 categories: programming
+description: My findings about C++(CPP, or cpp) object oriented programming, memory management and pointers.
+tags: programming, c++, object-oriented, cpp, pointers, memory management
 excerpt_separator: <!--more-->
 ---
 [garbage]:https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)

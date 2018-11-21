@@ -2,6 +2,8 @@
 layout: post
 title:  "Keeping on keeping on"
 categories: programming
+description: My findings about C++(CPP, or cpp) object oriented programming and loops
+tags: programming, c++, object-oriented, cpp, loops
 excerpt_separator: <!--more-->
 ---
 
