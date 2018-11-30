@@ -200,7 +200,7 @@ As can be seen that these two concepts work together to make *high-level concept
 
 Sources and where to read more:
 * [Cplusplus inheritance tutorial][cplusplus]
-* [C# corner][csharp] The code is about C# but still viable in C++ because it is mostly about the concept.
+* [C# corner][csharp], where the code is about C# but still viable in C++ because it is mostly about the concept.
 * [Ntuedu][ntuedu]
 * [W3School][w3school]
 * [LearnCpp][learncpp]
