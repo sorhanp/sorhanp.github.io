@@ -1,8 +1,6 @@
-# sorhanp.github.io
 ---
 layout: page
-title: About
-permalink: /about/
+title: About sorhanp.github.io
 ---
 [jekyll]: https://jekyllrb.com/
 [minima]: https://github.com/jekyll/minima
