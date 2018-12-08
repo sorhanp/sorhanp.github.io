@@ -1,7 +1,3 @@
----
-layout: page
-title: About sorhanp.github.io
----
 [jekyll]: https://jekyllrb.com/
 [minima]: https://github.com/jekyll/minima
 [toolate]: https://medium.com/startup-grind/i-am-enter-your-age-here-is-that-too-late-to-become-a-developer-58e926799af4
