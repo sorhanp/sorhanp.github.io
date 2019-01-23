@@ -7,7 +7,7 @@ tags: programming, c++, object-oriented, cpp, gameloop, game_loop
 excerpt_separator: <!--more-->
 ---
 
-[last]:https://sorhanp.github.io/programming/2018/11/30/Monthy-Recap-November.html
+[last]:/programming/2018/11/30/Monthy-Recap-November.html
 [particlefire_home_page]:https://sorhanp.github.io/particlefire-revision/
 [cppbeginners]:https://www.udemy.com/share/1000sQBEUccF1bRX4=/
 [visual_studio]:https://visualstudio.microsoft.com/
