@@ -7,7 +7,7 @@ tags: programming, c++, object-oriented, cpp, math, mathematics
 excerpt_separator: <!--more-->
 ---
 
-[last]:/programming/2018/12/30/Recap-December.html
+[last]:/programming/2019/01/23/Math-and-cpp.html
 [place_value]:http://www.montereyinstitute.org/courses/DevelopmentalMath/COURSE_TEXT_RESOURCE/U01_L1_T1_text_final.html
 [khan]:https://www.khanacademy.org/
 [32bitInteger]:https://en.wikipedia.org/wiki/2,147,483,647#In_computing
