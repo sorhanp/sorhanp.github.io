@@ -28,7 +28,7 @@ excerpt_separator: <!--more-->
 [virtualbox_debian]:https://sorhanp.github.io/programming/2018/10/31/Out-with-the-old-in-with-the-new.html
 [devopszone]:https://dzone.com/articles/learn-how-to-setup-a-cicd-pipeline-from-scratch
 
-First week of studies as a [DevSecOps-developer][last] are behind me. Since I was accepted to my new seat of learning, I really felt that I should use this blog to write about my experiences. In fact it was highly encourage on by the coordinating teacher so start some sort of blog or learning diary. Thus from now on I will be posting these DevSecOps weeklies to summarize what I have gathered to my learning diary during the week. So I will be kind of doing both. My method of writing a learning diary is based on questions stated in [this article][learning_diary] (Warning: Finnish content). However I have translated them freely so that I can use them here in my blog.<!--more--!>
+First week of studies as a [DevSecOps-developer][last] are behind me. Since I was accepted to my new seat of learning, I really felt that I should use this blog to write about my experiences. In fact it was highly encourage on by the coordinating teacher so start some sort of blog or learning diary. Thus from now on I will be posting these DevSecOps weeklies to summarize what I have gathered to my learning diary during the week. So I will be kind of doing both. My method of writing a learning diary is based on questions stated in [this article][learning_diary] (Warning: Finnish content). However I have translated them freely so that I can use them here in my blog.<!--more-->
 
 Here is what kind of questions I use for my learning diary and also basis my weeklies on:
 
