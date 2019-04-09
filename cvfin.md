@@ -27,7 +27,7 @@ Lisäksi mm. henkilö- ja yritysasiakashallinta ja -tilauskäsittelyä sekä val
 ### MYYNTINEUVOTTELIJA • DNA KAUPPA • 09/2010 – 01/2011 
 Joensuuhun tuolloin juuri avatun Contact Centerin ensimmäisen tiimin työntekijä. Ensimmäinen kosketus operaattorien toimintaan, sekä samalla myyntityöhön kylmäsoittamalla kilpailevan operaattorin asiakkaille. Täältä omaksutut opit kantaneet pitkälle tähän päivään, sillä koulutus ja lähijohtaminen oli todella laadukasta. 
 
-### ARKISTOTYÖNTEKIJÄ• POHJOIS-KARJALAN SAIRAANHOITO- JA SOSIAALIPALVELUJEN KUNTAYHTYMÄ• 07/2008 – 09/2009 
+### ARKISTOTYÖNTEKIJÄ • POHJOIS-KARJALAN SAIRAANHOITO- JA SOSIAALIPALVELUJEN KUNTAYHTYMÄ• 07/2008 – 09/2009 
 Tuuraus kesä- ja talvilomakausina. Potilaskertomusten ja kansioiden huolellinen käsittely, päivittäminen, arkistointi ja potilasturvallisuuden varmistaminen. 
 <br /><br />
 
