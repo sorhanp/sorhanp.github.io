@@ -1,10 +1,9 @@
 ---
 layout: page
-title: CV Suomeksi
 permalink: /cvfin/
 ---
 
-# CV - Hannupekka Sormunen - DevSecOps-opiskelija
+# Hannupekka Sormunen - DevSecOps-opiskelija
 ## Tavoite
 Innokas ICT-alan tiimijohtaja, jonka intohimona jatkuva oppiminen ja itsensä kehittäminen. Palava halu oppia modernia sovelluskehitystä.
 <br /><br />
