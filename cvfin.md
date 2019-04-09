@@ -1,13 +1,15 @@
 ---
-layout: page
+layout: default
 title: CV Suomeksi
 permalink: /cvfin/
 ---
 
 # Hannupekka Sormunen - DevSecOps-opiskelija
+
 ## Tavoite
 Innokas ICT-alan tiimijohtaja, jonka intohimona jatkuva oppiminen ja itsensä kehittäminen. Palava halu oppia modernia sovelluskehitystä.
 <br /><br />
+
 ## Työkokemus
 
 ### TEAM SUPERVISOR • MANPOWERGROUP SOLUTIONS • 06/2016 – 10/2018 
@@ -28,7 +30,9 @@ Joensuuhun tuolloin juuri avatun Contact Centerin ensimmäisen tiimin työntekij
 ### ARKISTOTYÖNTEKIJÄ• POHJOIS-KARJALAN SAIRAANHOITO- JA SOSIAALIPALVELUJEN KUNTAYHTYMÄ• 07/2008 – 09/2009 
 Tuuraus kesä- ja talvilomakausina. Potilaskertomusten ja kansioiden huolellinen käsittely, päivittäminen, arkistointi ja potilasturvallisuuden varmistaminen. 
 <br /><br />
+
 ## Koulutus
+
 ### LÄHIESIMIESTYÖN AMMATTITUTKINTO • 09/2018 • RIVERIA
 Tutkinto suoritettu työn ohessa monimuoto-opiskeluna ja osaaminen osoitettiin työelämän näyttöinä aidoissa tilanteissa mm. kehittämällä parempaa palautekulttuuria sekä suunnittelemalla uuden työntekijän kehityskaari. Suoritetut tukinnon osat: 
 - Lähiesimiehenä toimiminen 
