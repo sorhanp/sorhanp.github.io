@@ -28,15 +28,7 @@ Another 24 hours later and I was at the location we agreed to meet. Ten minutes 
 
 Getting serious with Lego
 ------
-
-<figure class="large">
-    <div class="myvideo">
-       <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
-           <source src="/assets/lego_spins.webm"  type="video/webm"  />
-       </video>
-    </div>
-<figcaption>It spins!</figcaption>
-</figure>
+![It spins!](/assets/lego_spin.gif)
 
 I had a three hour workshop where we kept building with Lego. Yes, you are seeing and reading right. Idea being here, that Lego offers a familiar setting to work with and at same time offers a inclusive method, where everyone shares their views about subject matter. This is known as [Lego Serious Play, or LSP for short][lsp]. According to research, making something (in this case, building a model) first and then discussing it makes brain react differently than just using words to describe the problem at hand. The material states, that when everyone is building it gives opportunity for everyone to present their views, rather than dominant (read: the loudest and most extrovert) person describes the problem and shares one sided view. LSP process is three-fold:
 1. Building challenge is presented by a coordinator to a group.
