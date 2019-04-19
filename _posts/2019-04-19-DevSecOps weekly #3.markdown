@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "DevSecOps weekly, third issue"
+categories: programming
+description: My findings about DevSecOps, DevOps, Service Design, , modern software development, cloud services, Lego Serious Play(LPS), User Experience(UX) design and web application security.
+tags: DevSecOps, DevOps, Service Design, , modern software development, cloud services, Lego Serious Play, LPS, User Experience design, UX design, web application security
+excerpt_separator: <!--more-->
+---
+
+[last]:/programming/2019/04/07/DevSecOps-weekly-2.html
+[linkedin]:https://www.linkedin.com/feed/update/urn:li:activity:6523108672120459264/
+[iot]:https://www.iotforall.com/what-is-iot-simple-explanation/
+[aplicom]:https://www.aplicom.com/
+[lsp]:https://www.lego.com/en-us/seriousplay
+[lego_material]:https://www.lego.com/r/www/r/seriousplay/-/media/serious%20play/pdf/2017/lego_serious_play_opensource_14mb.pdf?l.r2=423213558
+[lego_debunk]:http://seriousplaypro.com/2018/12/18/dan-lyons-looking-at-lab-rats-experiments-with-lsp/
+[kit_price]:https://shop.lego.com/en-US/product/LEGO-SERIOUS-PLAY-Window-Exploration-Bag-2000409#shopxlink
+[youtube_ux]:https://www.youtube.com/watch?v=Ovj4hFxko7c&
+[phil]:http://www.philkotler.com/
+[ux_customer]:http://www.uxforthemasses.com/why-the-user-is-not-always-right/
+[exploitation]:https://www.concise-courses.com/hacking-tools/vulnerability-exploitation-tools/
+
+Third week was when the things got really interesting and I started really reflecting upon what I have experienced. Highlights of the week include hunt for on-the-job training position, playing with Lego(!), learning about user experience design. Cloud services lectures also continued this week. Finally I also started a course about web application security, which proved to be much more interesting than I thought.<!--more-->
+
+I start with the very good news (not that there is going to be any bad news on this post, but still)! I stated on my preceding posts that DevSecOps-training also includes a part where learning happens on premises of a software company, as a part of software development team. Directly after [last weeks][last] post, I put up a nifty [trainee application to my LinkedIn](in Finnish) searching for a position at local companies. My post got a lot of views (700 and counting at them moment of writing) and it was shared by couple of people who I have worked with in the past. It was a very nice feeling to notice that people would share my post and fill in a praise of their own about my work ethics and personality. A bunch of thanks to everybody who helped to spread my message across their own network of connections! The post was only about 24 hours old when I got my first LinkedIn-message directly from a person in charge of development in a company. He said that he would like to meet me, especially if I’m interested in [IoT][iot]. How could I say no to opportunity like that, so of course I was more than willing for a meetup at their local office.
+
+Another 24 hours later and I was at the location we agreed to meet. Ten minutes later my meetup started, and boy what a meeting that was! The situation was like a job interview, and I have not been in a job interview for quite some time and my only experience with interviews has been when I have interviewed potential candidates myself. Anyway I believe that with cheery, playful attitude lightens up both the interviewer(s) and the interviewer and thus I tried to have more fun than ever before. That really paid of and I got complimented on my cheerful nature and ability to display my soft skills, such as ability to socialize and of course my eagerness to learn the big picture through constant, never-ending learning process. Long story short: after 45 minutes we signed on-the-job learning contract and it was official, I would start as trainee at [Aplicom][aplicom] on 27th of May. This is going to be my first experience in software development, thus I’m very excited for the opportunity and will do the absolutely best I can. I will wrote little more closely on what my trainee position has to offer, while respecting the confidentiality obligation, when I start working.
+
+Getting serious with Lego
+------
+![It spins!](assets/lego_spin.webm)
+
+I had a three hour workshop where we kept building with Lego. Yes, you are seeing and reading right. Idea being here, that Lego offers a familiar setting to work with and at same time offers a inclusive method, where everyone shares their views about subject matter. This is known as [Lego Serious Play, or LSP for short][lsp]. According to research, making something (in this case, building a model) first and then discussing it makes brain react differently than just using words to describe the problem at hand. The material states, that when everyone is building it gives opportunity for everyone to present their views, rather than dominant (read: the loudest and most extrovert) person describes the problem and shares one sided view. LSP process is three-fold:
+1. Building challenge is presented by a coordinator to a group.
+2. Each member of a group builds a model in the allotted time.
+3. Story behind each model is shared with the group and coordinator.  
+
+The challenge can really be anything (for example: we would like a team to be more talkative). It is up to coordinator to plan the session so that it will open up discussion. Members of a session then build a model that expresses their view of the problem using a limited set of Lego bricks. Most of the time the model is very abstract, so in order it to make sense, the member has to open their mouth and speak up, thus opening up discussion even from person who usually is quietest one. LSP, like [Service Design][last], is all about being inclusive to all discussion, so that everyone gets to have an input on subject. Idea of Service Design is to transform something abstract that user has in mind to concrete product. It is said that in a same sense LSP opens mind locks,since it can turn abstract ideas to concrete 3D models that have story behind them. LSP is **not** however a ice-breaker activity at the start of the meeting or when forming a team, even though Lego bricks can be used to that too. For full details on what LSP is, I recommend checking out [this material][lego_material], to gain knowledge on all the little tidbits that is behind the ideology. 
+
+During the workshop I really did not feel that the model building is doing anything for me. Meaning that it did not make me think anymore differently or share anything meaningful. My building was very down to earth. I think that this have something to do with my two character traits. First; the fact that I have never been very good with my hands. For example my handwriting and drawing style are terrible and I’m not very good with tools (hammer, screwdriver etc.) in general. I much rather write using a computer and form my answer on my own time thinking things through with myself and then presenting a solid answer to a group, rather than just throwing ideas around randomly and presenting my very silly looking model. Secondly; I also tend to be very critical of myself and on any new thing that I’m just learning about. Usually I don’t take anything itself by face value, and tend to find out different viewpoints and then form my own opinion. Like with everything LSP also has it opponents. For example, Dan Lyons wrote in his book [“Lab Rats: How Silicon Valley Made Work Miserable for the Rest of Us“][lego_debunk], that:
+>“pseudo happiness” generated by LEGO Serious Play practitioners alongside with Agile practitioners has been one of the main reasons why startup community and industry at large is actually ending up more miserable. 
+
+He argues, that this kind of situation can be very stressful to some, since not everyone can express themself in playful way, therefore effect of the whole exercise might be futile. It should be also noted that with LSP there is business interests in promoting the use and especially the usefulness of the method, not to mention selling [lego kits][kit_price]. Because of this, most available case studies focus on success stories and there is no comparative studies using control groups. To put is short: **It haven’t been put to real test in comparison with conventional workshops.**
+
+Getting back on on the subject of my traits. I think both of these my character traits have it upsides and downsides, and on these kind of exercises it is definitely a negative for me. I however felt that this is indeed a good in a sense that everyone gets to share their views, thus opening up the conversation. I usually then can pick up on those and start forming a plan on how to go further from that. However I think if the room is full of critical thinkers or people who feel very stressful about the whole ordeal, the end result would be very very fruitless, maybe even harmful. I understand the good sides of LSP, but all in all I’m left with very mixed feeling because there is not enough case studies for and against it. I think it would have been interesting to do this with my own team back when I was still a Team Supervisor because I had known the people I lead for quite some time, because I believe they would have presented their opinion about the situation along with their views to the problem at hand, making the situation little bit more relaxed for everybody. All in all this workshop gave me lot to reflect on, so I decided to put my thoughts on writing like this. Oh and that Lego that is spinning on the video I posted, is my idea of a tower, which was the first thing we built on the workshop.
+
+User Experience Design
+------
+For the final lectures for this week I had User Experience Design, written UX design from now on. Again I like to refer back to [Service Design][last], since UX design is very closely related to that. UX design is all about the experience that user experiences when using a product. It could be said that UX design is a subset of Service Design, where Service Design takes care of the whole process, while UX design [aims to answer][youtube_ux] “the five W and one H” of someone using a product:
+- What product/part of product is being used
+- When the product is being used
+- Where the product is being used
+- Why the product is being used
+- Who is using the product
+- How to product is being used
+
+However **it is not** the same as graphic design, making it possible for even people like me, who are not so proficient on how to design something look beautiful, to be UX designers. UX design is more about thinking how the user interacts with a product. UX designer lay somewhere in the midpoint between customer and business needs, effectively trying to focus on but not limited on how to make the product as useful, easy to use, credible, desirable and especially add value to both parties involved. During the lecture I noticed shocking similarities to Service Design and one of them is how UX-design is also separated on distinct phases. This time there are four phases:  investigate => encapsulate => design => develop. The lecture focused on the first two on this time, so I will not go on the details on this post on what each of the phases contain, since I still not have the big picture on the whole process yet. I will make post later, when I have full know-how on each of the phases.
+
+All in all at first glance UX design makes perfect sense, since it has taken account for both user’s and business’s needs. It think [Philip Kotler][phil] was on point: “The best advertising is done by satisfied customers.”, but I like to add that thanks to UX design non-reasonable demands of the customer are filtered out during the process and the solution that benefits both can be found. I have worked a long time on customer interface, where very unreasonable demands from customer can be heard. Satisfying all of these and still making a profit for business would be impossible tasks. UX makes it so that there are filters in place, that takes into account the reasonability of a demand. All the while that the [mentality of customer being **always** right is slowly fading away][ux_customer] and turning more to customer has a need, let’s design a product around it.
+
+What remains...
+------
+These were the most thought provoking moments of the week. As stated there have been lectures about cloud services and web application security, but they are only in beginning, and since they are constantly ongoing lectures. I have not fully formed anything to post about these subjects. Not to worry, I’m slowly writing about these things too but like with UX design I want to have a bigger picture formed in my head before writing anymore about them. I like to say is that my first thought about web application security was that I’m not that interested but the way it was presented really made me truly interested. All in all I was pleasantly surprised and will start my own little exploration of [vulnerability exploitation][exploitation] as soon as possible.
+
+-sorhanp
