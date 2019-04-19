@@ -7,7 +7,7 @@ tags: DevSecOps, DevOps, Service Design, , modern software development, cloud se
 excerpt_separator: <!--more-->
 ---
 
-[last]:/programming/2019/04/07/DevSecOps-weekly-2.html
+[last]:/programming/2019/04/14/DevSecOps-weekly-2.html
 [linkedin]:https://www.linkedin.com/feed/update/urn:li:activity:6523108672120459264/
 [iot]:https://www.iotforall.com/what-is-iot-simple-explanation/
 [aplicom]:https://www.aplicom.com/
@@ -22,13 +22,21 @@ excerpt_separator: <!--more-->
 
 Third week was when the things got really interesting and I started really reflecting upon what I have experienced. Highlights of the week include hunt for on-the-job training position, playing with Lego(!), learning about user experience design. Cloud services lectures also continued this week. Finally I also started a course about web application security, which proved to be much more interesting than I thought.<!--more-->
 
-I start with the very good news (not that there is going to be any bad news on this post, but still)! I stated on my preceding posts that DevSecOps-training also includes a part where learning happens on premises of a software company, as a part of software development team. Directly after [last weeks][last] post, I put up a nifty [trainee application to my LinkedIn](in Finnish) searching for a position at local companies. My post got a lot of views (700 and counting at them moment of writing) and it was shared by couple of people who I have worked with in the past. It was a very nice feeling to notice that people would share my post and fill in a praise of their own about my work ethics and personality. A bunch of thanks to everybody who helped to spread my message across their own network of connections! The post was only about 24 hours old when I got my first LinkedIn-message directly from a person in charge of development in a company. He said that he would like to meet me, especially if I’m interested in [IoT][iot]. How could I say no to opportunity like that, so of course I was more than willing for a meetup at their local office.
+I start with the very good news (not that there is going to be any bad news on this post, but still)! I stated on my preceding posts that DevSecOps-training also includes a part where learning happens on premises of a software company, as a part of software development team. Directly after [last weeks][last] post, I put up a nifty [trainee application to my LinkedIn][linkedin] (in Finnish) searching for a position at local companies. My post got a lot of views (700 and counting at them moment of writing) and it was shared by couple of people who I have worked with in the past. It was a very nice feeling to notice that people would share my post and fill in a praise of their own about my work ethics and personality. A bunch of thanks to everybody who helped to spread my message across their own network of connections! The post was only about 24 hours old when I got my first LinkedIn-message directly from a person in charge of development in a company. He said that he would like to meet me, especially if I’m interested in [IoT][iot]. How could I say no to opportunity like that, so of course I was more than willing for a meetup at their local office.
 
 Another 24 hours later and I was at the location we agreed to meet. Ten minutes later my meetup started, and boy what a meeting that was! The situation was like a job interview, and I have not been in a job interview for quite some time and my only experience with interviews has been when I have interviewed potential candidates myself. Anyway I believe that with cheery, playful attitude lightens up both the interviewer(s) and the interviewer and thus I tried to have more fun than ever before. That really paid of and I got complimented on my cheerful nature and ability to display my soft skills, such as ability to socialize and of course my eagerness to learn the big picture through constant, never-ending learning process. Long story short: after 45 minutes we signed on-the-job learning contract and it was official, I would start as trainee at [Aplicom][aplicom] on 27th of May. This is going to be my first experience in software development, thus I’m very excited for the opportunity and will do the absolutely best I can. I will wrote little more closely on what my trainee position has to offer, while respecting the confidentiality obligation, when I start working.
 
 Getting serious with Lego
 ------
-![It spins!](assets/lego_spin.webm)
+
+<figure class="large">
+    <div class="myvideo">
+       <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+           <source src="/assets/lego_spins.webm"  type="video/webm"  />
+       </video>
+    </div>
+<figcaption>It spins!</figcaption>
+</figure>
 
 I had a three hour workshop where we kept building with Lego. Yes, you are seeing and reading right. Idea being here, that Lego offers a familiar setting to work with and at same time offers a inclusive method, where everyone shares their views about subject matter. This is known as [Lego Serious Play, or LSP for short][lsp]. According to research, making something (in this case, building a model) first and then discussing it makes brain react differently than just using words to describe the problem at hand. The material states, that when everyone is building it gives opportunity for everyone to present their views, rather than dominant (read: the loudest and most extrovert) person describes the problem and shares one sided view. LSP process is three-fold:
 1. Building challenge is presented by a coordinator to a group.
