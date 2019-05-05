@@ -31,12 +31,13 @@ Like said this week has been very low on lectures at the campus, thus I have had
 
 As can be seen each of the title, which I will be calling cards from now on, is also color coded. I have used colors to indicate what type of material I’m dealing with, so I can quickly glance that I have read this and this number of books or finish this and that course etc. Here is a list of what each color means:
 
-![Kanban color codes](/assets/KANBAN_colorcode.png)
+![Kanban color codes](/assets/KANBAN_colorcodes.png)
 
 So. what is KANBAN? it is a scheduling system for manufacturing and it’s goal is to improve efficiency. It was first used in car factories, where it is important to have constant flow of inventory. It then expanded on other fields, such as software development. The power of Kanban is to have visualized view of the situation to give participants a view of progress and process. People like to see process bars fill, so this has similar kind of effect. Something is left in the backlog, then moved to TODO, finally worked on and (hopefully) finished. To make it even clearer for myself and really drive home to idea of the board, I decided to make a list for this blog about each of the KANBAN-cards that I have written on the board. This post can be considered as a recap of what I have done, with a view on what I plan to learn more of. Let’s get going! Oh, and for little change of pace, I will be going from right to left, starting from what I have done, then moving on what I must finish and finally what I have planned.
 
 Done 
 ================== 
+
 | Card | Description |
 |---|---|
 | Start a Blog | Well you are reading this, which means it is here and done. Aim was and still is to document my path of becoming a software developer.  |
@@ -52,6 +53,7 @@ That is what I have been able to do in about six months. I’m very proud of mys
 
 Work In Progress, or WIP
 ================== 
+
 | Card | Description |
 |---|---|
 | Programming with Java I | [Helsinki University’s MOOC][mooc] on the subject of Java programming. My on-the-job-training workplace is using Java; so I have made my mission to learn as much of it as possible before starting as a trainee. |
