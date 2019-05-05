@@ -3,7 +3,7 @@ layout: post
 title:  "DevSecOps weekly, fourth issue"
 categories: programming
 description: My findings about DevSecOps, DevOps, modern software development, DevOps culture and leadership, DevSecOps culture and management.
-tags: DevSecOps, DevOps, modern software development, DevOps culture, DevSecOps culture, managemet
+tags: DevSecOps, DevOps, modern software development, DevOps culture, DevSecOps culture, management
 excerpt_separator: <!--more-->
 ---
 

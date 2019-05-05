@@ -2,8 +2,8 @@
 layout: post
 title:  "DevSecOps weekly, fifth issue"
 categories: programming
-description: My findings about DevSecOps, DevOps, modern software development, DevOps culture and leadership, DevSecOps culture and management.
-tags: DevSecOps, DevOps, modern software development, DevOps culture, DevSecOps culture, managemet
+description: My findings about kanban, scrum and scrumban.
+tags: kanban, scrum , scrumban, modern software development
 excerpt_separator: <!--more-->
 ---
 
