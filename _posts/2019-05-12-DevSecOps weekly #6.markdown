@@ -74,7 +74,6 @@ Invalid Login
     Submit Password  
     Invalid Username Or Password Text Should Be Printed  
     [Teardown]    Close Browser  
-
 ```
 As can be seen it is easy to understand, so easy in fact, that my lecturer even stated that even the CEO of the software company knows what is being tested with above syntax. 
 
@@ -95,7 +94,6 @@ High-level keywords can even call other high-level keywords like is done on “O
 ``` 
 Login Page Should Be Open 
     Title Should Be    Home Page 
-
 ``` 
 Finally, there are variables, such as ${LOGIN URL} and ${BROWSER} these work like variables in regular programming, meaning that one can store values inside them. Here is an example of values used in resource.robot-file: 
 ``` 
@@ -122,6 +120,7 @@ What is happening here is four different tests:
 4. View test completed; not really a test, but a redirection to image that shows that all the tests are completed. 
 
 As seen in the second test, robot can be also told to take screenshots on any location, here is what this blog looks like on iPhone X screen:
+
 ![Blog on iPhone X screen](/assets/iPhoneX_screen.png) 
 
 Here are my files, first the resource-file know as resource.robot: 
@@ -207,7 +206,6 @@ Test For Blog Images
 View Test Completed 
     Go To   https://sorhanp.github.io/assets/test_completed.svg 
     [Teardown]    Close Browser 
-
 ```
 
 Final thoughts 
