@@ -38,7 +38,7 @@ Integration testing
 Unit tests' scope is limited into very small details, in which all are tested individually. Unit testing does not do cross testing of all newly implemented modules. This means that there is no certainty that all the code blocks even work together. No worries thought, integration testing is a phase where all the previously unit tested parts are tested together. Goal of this test is to confirm that all the modules work correctly together, since there can be a situation where two or more components do not interact correctly with each other. 
 
 Since programs are modular, means that each unit is part of one component and the whole program is made up of multiple components. Again, I believe this is best understood with a picture: 
-![Integration testing](/assets/ integration_testing.svg) 
+![Integration testing](/assets/integration_testing.svg) 
 
 As pictured, each unit is integration tested, so that they work as a part of component. However, this is also where things get interesting. Each of the component must also be tested against each other. What this means is that there are multiple layers of integration testing. I really enjoyed the analogy that [Software Testing Fundementals][int_testing] provides: 
 
@@ -136,7 +136,7 @@ Again, these are highly useful and once again prevent users from repeating the s
 Robot Framework Example 
 ================== 
 Last header covers the basics of Robot Framework, so now it is time for me to show you how it is done. Here is a simple YouTube-video I recorded of the Robot in action: 
-<iframe width="1905" height="755" src="https://www.youtube.com/embed/ovKSsETfSYE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="635" height="252" src="https://www.youtube.com/embed/ovKSsETfSYE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 What is happening here is four different tests: 
 
@@ -144,7 +144,8 @@ What is happening here is four different tests:
 2. iPhone X test for blog by resizing the window to 375 x 812 size and taking a screenshot of it. 
 3. Test for blog images, in which the robot checks if it possible to locate two images that point to locations /assets/KANBAN.png and /assets/KANBAN_colorcodes.png 
 4. View test completed; not really a test, but a redirection to image that shows that all the tests are completed. 
-As seen in the second test, robot can be also told to take screenshots on any location, here is what this blog looks like on iPhone X screen: 
+
+As seen in the second test, robot can be also told to take screenshots on any location, here is what this blog looks like on iPhone X screen:
 ![Blog on iPhone X screen](/assets/iPhoneX_screen.png) 
 
 Here are my files, first the resource-file know as resource.robot: 
