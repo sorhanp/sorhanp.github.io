@@ -123,6 +123,8 @@ As seen in the second test, robot can be also told to take screenshots on any lo
 
 ![Blog on iPhone X screen](/assets/iPhoneX_screen.png) 
 
+Example-files
+================== 
 Here are my files, first the resource-file know as resource.robot: 
 ``` 
 *** Settings *** 
