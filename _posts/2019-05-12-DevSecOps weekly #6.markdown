@@ -63,25 +63,16 @@ Robot framework is the open source framework for acceptance testing, written usi
 
 ```
 *** Settings *** 
-
 Resource          resource.robot 
 
 *** Invalid login test case starts below ***  
-
 Invalid Login  
-
     Open Browser To Login Page  
-
     Input Username    test@test.com 
-
     Submit Email  
-
     Input Password    test  
-
     Submit Password  
-
     Invalid Username Or Password Text Should Be Printed  
-
     [Teardown]    Close Browser  
 
 ```
@@ -93,43 +84,28 @@ If you have checked out the documentations I have provided so far, you might hav
 
 ```
 Open Browser To Login Page 
-
     Open Browser    ${LOGIN URL}    ${BROWSER} 
-
     Maximize Browser Window 
-
     Set Selenium Speed    ${DELAY} 
-
     Login Page Should Be Open 
-
 ```
-
 These high-level keywords are declared inside resource.robot-file, and you might have noticed that on example.robot-file, the first line after ***Settings*** is Resource resource.robot. This is where the high-level keywords are acquired. These high-level keywords are same as functions in regular programming. They provide a way to encapsulate regular keywords inside, thus preventing unnecessary repetition of keywords. 
 
 High-level keywords can even call other high-level keywords like is done on “Open Browser To Login Page”.  Here “Login Page Should Be Open” is called and it looks like this: 
-
 ``` 
 Login Page Should Be Open 
-
     Title Should Be    Home Page 
 
 ``` 
 Finally, there are variables, such as ${LOGIN URL} and ${BROWSER} these work like variables in regular programming, meaning that one can store values inside them. Here is an example of values used in resource.robot-file: 
 ``` 
 *** Variables *** 
-
 ${SERVER}         testpage.test 
-
 ${BROWSER}        Firefox 
-
 ${DELAY}          0 
-
 ${LOGIN URL}      http://${SERVER}/ 
-
 ${WELCOME URL}    http://${SERVER}/welcome.html 
-
 ${ERROR URL}      http://${SERVER}/error.html 
-
 ``` 
 Again, these are highly useful and once again prevent users from repeating the same thing again and again. Also, this makes the syntax much more modular, thus the same test case can be used in another server or browser. Simply changing the corresponding variable without need for combing through the whole file. 
 
@@ -151,149 +127,88 @@ As seen in the second test, robot can be also told to take screenshots on any lo
 Here are my files, first the resource-file know as resource.robot: 
 ``` 
 *** Settings *** 
-
 Documentation     A resource file with reusable keywords and variables. 
-
 Library           SeleniumLibrary 
 
-
 *** Variables *** 
-
 ${SERVER}         sorhanp.github.io 
-
 ${BROWSER}        Firefox 
-
 ${DELAY}          2 
-
 ${HOME URL}       http://${SERVER}/ 
-
 ${HOME TITLE}     (Re)discovering the code | Programming blog of Hannupekka Sormunen 
-
 ${LATEST POST}    /programming/2019/05/05/DevSecOps-weekly-5.html 
-
 ${LATEST TITLE}   DevSecOps weekly, fifth issue | (Re)discovering the code 
-
 ${DEFAULT WIDTH}         1100 
-
 ${DEFAULT HEIGHT}        975 
-
 ${IPHONE WIDTH}          375 
-
 ${IPHONE HEIGHT}         812 
 
 
 *** Keywords *** 
-
 Open Browser To Home Page 
-
     Open Browser                ${HOME URL}    ${BROWSER} 
-
     Set Default Browser Size 
-
     Set Selenium Speed          ${DELAY} 
-
     Home Page Should Be Open 
 
-
 Set Default Browser Size 
-
     Set Window Size             ${DEFAULT WIDTH}    ${DEFAULT HEIGHT} 
 
-
 Home Page Should Be Open 
-
     Title Should Be             ${HOME TITLE} 
 
-
 Click The Newest Post 
-
     Click Link                  ${LATEST POST} 
-
     Title Should Be             ${LATEST TITLE} 
 
-
 Resize To iPhone X 
-
     Set Window Size             ${IPHONE WIDTH}    ${IPHONE HEIGHT} 
 
-
 Blog Should Contain Two Images 
-
     Set Selenium Speed  1 
-
     Page Should Contain Image   /assets/KANBAN.png 
-
     Page Should Contain Image   /assets/KANBAN_colorcodes.png 
-
     Set Selenium Speed  ${DELAY} 
-
 
 Scroll Through Page 
-
     Set Selenium Speed  0 
-
     : FOR    ${INDEX}    IN RANGE    1    750 
-
     \   Scroll Page To Location     ${INDEX} 
-
     Log    For loop is over 
-
     Set Selenium Speed  ${DELAY} 
 
-
 Scroll Page To Location 
-
     [Arguments]     ${y_location} 
-
     Execute JavaScript    window.scrollTo(0,${y_location}) 
-
 ```
 and finally the test case-file known as blogtest.robot: 
 
 ``` 
 *** Settings *** 
-
 Documentation     A test suite for https://sorhanp.github.io/. 
-
 Resource          resource.robot 
 
-
 *** Test Cases *** 
-
 Test If Newest Blog Post Is Up 
-
     Open Browser To Home Page 
-
     Click The Newest Post 
 
-
 iPhone X Test For Blog 
-
     Resize To iPhone X 
-
     Capture Page Screenshot 
-
     Scroll Through Page 
-
 
 Test For Blog Images 
-
     Set Default Browser Size 
-
     Reload Page 
-
     Scroll Through Page 
-
     Blog Should Contain Two Images 
 
-
 View Test Completed 
-
     Go To   https://sorhanp.github.io/assets/test_completed.svg 
-
     [Teardown]    Close Browser 
 
-``` 
+```
 
 Final thoughts 
 ==================
