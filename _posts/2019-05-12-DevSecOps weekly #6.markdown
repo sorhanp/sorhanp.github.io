@@ -144,7 +144,6 @@ ${DEFAULT HEIGHT}        975
 ${IPHONE WIDTH}          375 
 ${IPHONE HEIGHT}         812 
 
-
 *** Keywords *** 
 Open Browser To Home Page 
     Open Browser                ${HOME URL}    ${BROWSER} 
