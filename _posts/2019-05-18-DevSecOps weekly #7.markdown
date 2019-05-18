@@ -43,7 +43,7 @@ However, this is not all that needs to be done. It is also important to know “
 
 Here is one example of an investigation done using post-it notes. Image by visualpun.ch. Image source [here][image]: 
 
-![Post-it notes](/assets/post_it_board.jpg) 
+![Post-it notes](/assets/post_it_notes.jpg) 
 
 
 # Define 
