@@ -17,6 +17,7 @@ excerpt_separator: <!--more-->
 [zeplin]:https://zeplin.io/why-zeplin
 [ab]:https://vwo.com/ab-testing/
 [nps]:http://www.netpromotersystem.com/
+[image]:https://www.flickr.com/photos/visualpunch/14073991539
 
  This was the week when last of the User Experience Design lectures were held, thus I can bring you a brief overview of the subject and gather all what I have learned into a blog post. I would like to thank [Telia’s Design Leader Pekka Jääskeläinen][pekkaj] for excellent presentations on the subject. Not only because it was such an eye opener for me, but also because he really drove home the balance between what the users want and what the business expects. <!--more--> 
 
@@ -40,7 +41,7 @@ Method is very simple, **understand your users**. This can be done via user inte
 
 However, this is not all that needs to be done. It is also important to know “your enemies”, by making a competitor analysis. This can be used to find out if something has been done before. Of course, this doesn’t mean that something that has been already discovered, should not be done. Rather, it is a signal that something must be done better for your UX to be better than competitors. A tool to this is benchmarking, which is figuring out if something like this has been implemented somewhere.  
 
-Here is one example of an investigation done using post-it notes: 
+Here is one example of an investigation done using post-it notes. Image by visualpun.ch. Image source [here][image]: 
 
 ![Post-it notes](/assets/post_it_board.jpg) 
 
