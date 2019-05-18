@@ -20,7 +20,7 @@ excerpt_separator: <!--more-->
 
  This was the week when last of the User Experience Design lectures were held, thus I can bring you a brief overview of the subject and gather all what I have learned into a blog post. I would like to thank [Telia’s Design Leader Pekka Jääskeläinen][pekkaj] for excellent presentations on the subject. Not only because it was such an eye opener for me, but also because he really drove home the balance between what the users want and what the business expects. <!--more--> 
 
-# User Experience Design 
+## User Experience Design 
 I already wrote a brief explanation of user experience design, which I will be calling UX from now on to keep it simple, on my [previous blog post][last]. On it I summarized the UX designer’s position: 
 
 > UX designer lay somewhere in the midpoint between customer and business needs, effectively trying to focus on but not limited on how to make the product as useful, easy to use, credible, desirable and especially add value to both parties involved. 
@@ -31,7 +31,7 @@ In short; UX is designing what kind of encounter user has with a product or serv
 However, it should be noted that UI is not UX and vice versa, but rather they go hand in hand, but there are differences, which I will present during this post. I will also like to note that modern software development calls for team work and UX teams have designers and developers working together on each of the step. I will go in detail why this is important in this post too. 
 
 
-## Investigate 
+# Investigate 
 I have said before, that investigation is “do some detective work before rushing headfirst down a cliff” part of a process. Same applies here, of course there is less of a focus on product as a whole, but rather on *how* and *who* is going to be using the product. As stated, it is important to find out what are needs of the customer and business, the so-called problem. But how on earth this can be known before even launching a product? For example, certain Finnish mobile phone developer said in the past that users do **NOT** want a phone that has a touch screen and no physical keyboard. 
 
 I see that statement as a good example on why UX is more popular nowadays, since companies want to be on [“pulse of their customers”][pulse] and provide the best they can offer so that they become loyal customers and stay, even though product offered might be a bit more expensive than your competitor. Oh, and to answer the question posed in last paragraph, there are method on finding out what customers wants. 
@@ -45,7 +45,7 @@ Here is one example of an investigation done using post-it notes:
 ![Post-it notes](/assets/post_it_board.jpg) 
 
 
-## Define 
+# Define 
 
 After investigating what the problem looks like, it is time to start defining wherein the problem lies. This can be tackled with questions such as: 
 
@@ -64,7 +64,7 @@ When above questions are answered, the real problem can be solved, thus it also 
 Key design driver on above case would be development of such app, because there is demand for it and market statistic show, that almost every one of our customers has a handheld device. 
 
 
-## Design 
+# Design 
 Designing is same as generating an idea on how to solve the defined problem. I already talked on [Service Design post][servicedesign] about brainstorming, meaning such throwing ideas to the wild. I learned about a new way of doing this, which is brainwriting.  
 
 Brainwriting is a team effort, in which each member of the team writes down the defined problem to a piece of paper and then, on that same paper, write down three proposed solutions. The solutions are written in set time limit and after the time is over the piece of paper is passed down to next team member. 
@@ -94,13 +94,13 @@ Here is a screenshot on how advanced prototyping XD can do:
 As can be seen, it looks almost like a real finished program, in Preview-mode the buttons can be clicked, and the program responds by showing what that press does. This is very powerful and yet again, can be presented to user who at this point gets a clear idea on what the UI is going to look like, how it is navigated etc. and give feedback. All this even before any lines of code has been written! Think of the amount of time and money saved because of these awesome tools! 
 
 
-## Develop 
+# Develop 
 We have come so far and like said, without ever needing to write code. However, now is the point where the so called “handover” happens and it is time to start building the product. However traditional waterfall model is not in effect here, and thus handover doesn’t mean that a designer simply drops all the design material to the lap of a developer and hope for the best. These times need to be over in order to have excellent UI/UX. Developer must be part of the design all this time, so that there is understanding on what the designer wants the developer to develop. Vice versa, there might need to revision the design when programming proves some design idea to be non-plausible in the scope of the project. 
 
 Thanks to modern technology there are tools for an easy handover of design to developers, even going so far that there is automation of programming when design is exported from the program! This is possible via collaboration apps for designers and developers, such as [Zeplin][zeplin]. Like said it automates to process by generating development resources automatically, such as style sheets for webpage or XML for Android development. 
 
 
-## What’s next? 
+# What’s next? 
 Well now that design is done and developed to release state, the moment of truth is upon us. Final release happens, letting users experience the product. However, like with any modern software development, the story doesn’t end there. Post-release UX needs evaluation with available indicators. These include, but not limited to, ease of use, does the solution really solve problem and if the program is clear enough so that user wants to use it. 
 
 As with everything there are tools for collecting data for these indicators, such as [A/B-testing][ab] and [Net Promoter Score, in short NPS][nps]. For example, A/B-testing shows two different version of the ready product (different in a sense that they have slight modifications, such as different colored buttons etc.) to each user. Hence the name A/B for A-version and B-version. The design of UI is changed depending on which version gathers better customer behavior. For example, if version A proves that green “buy”-button makes users more likely to buy a product from web-store than version B’s orange button, then the version A is implemented to the all users of web-store in the future. In short design is honed from  
@@ -112,7 +112,7 @@ With NPS there is the ability to collect feedback with question “How likely ar
 So rather than blindly following a number, I’d personally go with A/B-testing followed with the question and if there is feedback, start developing from there. 
 
 
-## My thoughts 
+# My thoughts 
 As I stated at the beginning, this course was a definite eye opener for me. I understood the importance of planning things out, before implementing them. **BUT** because of my history with working closely with customers made me worried that if design is hugely influenced by customers, then the result would not be very beneficial to the company. 
 
 However, I quickly learned that UX is not only defined by customers but rather there is a fine line of meeting customer’s expectations, all the while fulfilling the needs of the business. I even asked from the lecturer, that since customers can demand so much from company, how it is even good idea, in the business sense, to start fulfilling all of these. 
