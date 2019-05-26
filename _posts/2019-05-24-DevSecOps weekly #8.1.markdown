@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DevSecOps weekly, eighth issue"
+title:  "DevSecOps weekly, eighth issue. part 1"
 categories: programming
 description: My findings about database, databases, conceptual model and domain model
 tags: database, databases, conceptual model, domain model
@@ -12,6 +12,7 @@ excerpt_separator: <!--more-->
 [oop]:/programming/2018/11/03/Object-Oriented-Programming.html
 [data_types]:https://www.w3schools.com/sql/sql_datatypes.asp
 [oop_inheritance]:/programming/2018/11/21/You-have-just-inherited-a-large-sum-of-blog-postage.html
+[part2]:/programming/2019/05/26/DevSecOps-weekly-8-2.html
 
 This is the final week before my on-the-job learning period begins. I have strongly focused my last couple of weeks on what kind of knowhow I need in order to operate with best of my knowledge at the job. These include finishing “Programming with Java I”-course and started working on “Introductory to Databases”-course. On this blog post, I want to focus on how a conceptual model and domain model can be utilized when designing databases. <!--more--> 
 
@@ -191,6 +192,6 @@ In this case it would have been an excellent idea to keep all the “customer”
 One might wonder how on earth can be same attributes be utilized by both. This is possible because both concepts can inherit all the attributes from “customer”-concept. This way, there is only one instance of each attribute, and repeatable attributes are copied by inheritance to other concepts. For further reading, I have written an article about [inheritance in object-oriented programming][oop_inheritance]. 
 
 # Conclusion 
-Road to databases has just begun! Next up is processing the ready conceptual model to a database schema, which can be then used to build real life database. Join me on my next blog post, which I will release as soon as possible and provide a link. 
+Road to databases has just begun! Next up is processing the ready conceptual model to a database schema, which can be then used to build real life database. Join me on my next [blog post][part2], which I will go through the process in greater detail.
 
 -sorhanp
