@@ -7,7 +7,7 @@ tags: database, databases, database schema, conceptual model, domain model, SQL,
 excerpt_separator: <!--more-->
 ---
 
-[last]:/programming/2019/05/24/DevSecOps-weekly-8.html
+[last]:/programming/2019/05/24/DevSecOps-weekly-8.1.html
 [schema]:https://database.guide/what-is-a-database-schema/
 [data_types]:https://www.w3schools.com/sql/sql_datatypes.asp
 [text_types]:https://chartio.com/resources/tutorials/understanding-strorage-sizes-for-mysql-text-data-types/
