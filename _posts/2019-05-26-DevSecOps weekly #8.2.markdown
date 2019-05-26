@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DevSecOps weekly, eighth issue, part two"
+title:  "DevSecOps weekly, eighth issue, part 2"
 categories: programming
 description: My findings about database, databases, database schema, conceptual model, domain model, data types, SQL and the process of transforming conceptual model to database schema
 tags: database, databases, database schema, conceptual model, domain model, SQL, data types,  conceptual model to database schema

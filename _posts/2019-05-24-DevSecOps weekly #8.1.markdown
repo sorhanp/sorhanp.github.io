@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DevSecOps weekly, eighth issue. part 1"
+title:  "DevSecOps weekly, eighth issue, part 1"
 categories: programming
 description: My findings about database, databases, conceptual model and domain model
 tags: database, databases, conceptual model, domain model
