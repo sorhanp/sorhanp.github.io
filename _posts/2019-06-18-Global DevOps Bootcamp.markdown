@@ -112,7 +112,7 @@ Through the discussion learned about [WhiteSource Bolt][whitesourcebolt] that ch
 # 16.30 | Wrap up 
 We had little refreshments and had a raffle and I won awesome Zure-prizes! :smile: 
 
-![Zure prizes](/assets/zure_prizes.png)  
+![Zure prizes](/assets/zure_loot.png)  
 
 That's it! At 17.45 I was on my way to home back to Jyväskylä and started writing about my day, which I really enjoyed! 
 
