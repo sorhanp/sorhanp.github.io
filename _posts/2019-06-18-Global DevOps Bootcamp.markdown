@@ -30,13 +30,13 @@ I read the preliminary material that the organizer had sent me on Friday afterno
 Before the event I also learned a new term: Site Reliability Engineering (SRE), and how it [shares same foundational principles with DevOps][sre]. Main difference, however, is that SRE's tend to be developers themselves. This is something I must learn more about, since I always believe that one can learn more another a great deal, bringing the best of both worlds. 
 
 I was armed with laptop, curiosity and mindset of learning and improving, as I hopped on the bus with excitement on that Saturday morning. The bus left bit after five o'clock in the morning from Jyväskylä. While at bus, I rechecked the timetable for today: 
-- 09.30 | Drop-in & Coffee 
-- 10.00 | Intro and keynote: "You build it, you run it” 
-- 10.30 | Bootcamp starts 
-- 12.45 | Lunch 
-- 13.30 | Bootcamp continues 
-- 16.00 | Demos 
-- 16.30 | Wrap up 
+- 09.30 \| Drop-in & Coffee 
+- 10.00 \| Intro and keynote: "You build it, you run it” 
+- 10.30 \| Bootcamp starts 
+- 12.45 \| Lunch 
+- 13.30 \| Bootcamp continues 
+- 16.00 \| Demos 
+- 16.30 \| Wrap up 
 
 I will go through each of piece of agenda under their own headers and share how I experienced the event, and hope that you can gain some knowledge at the meantime! 
 
