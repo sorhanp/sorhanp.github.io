@@ -9,4 +9,4 @@ At start of this blog I’m in my very early thirties and I hope that this blog 
 
 [toolate]: https://medium.com/startup-grind/i-am-enter-your-age-here-is-that-too-late-to-become-a-developer-58e926799af4
 [blog]:https://sorhanp.github.io/
-[newBlog]:https://sorhanp.github.io/
+[newBlog]:https://sorhanp.gitlab.io/
